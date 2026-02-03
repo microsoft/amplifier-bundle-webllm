@@ -23,6 +23,7 @@ Build browser-based AI applications using WebLLM for inference and Amplifier for
 - Autonomous Playwright testing
 
 ### WebLLM-Specific
+- **webllm-expert** agent for model selection and architecture guidance
 - WebLLM model selection guidance
 - WebGPU optimization patterns
 - Browser compatibility information
@@ -43,13 +44,4 @@ Build browser-based AI applications using WebLLM for inference and Amplifier for
 | Llama-3.2-3B-Instruct-q4f16_1-MLC | 2.1GB | 4GB | Fast responses |
 | Qwen2.5-7B-Instruct-q4f16_1-MLC | 4.2GB | 8GB | Multilingual |
 
----
-
-@webllm:context/webllm-guide.md
-@webllm:context/model-selection-guide.md
-@webllm:context/error-handling.md
-@webllm:context/system-prompt-escaping.md
-
----
-
-@foundation:context/shared/common-system-base.md
+For detailed model selection, architecture guidance, or troubleshooting, delegate to `webllm:webllm-expert`.

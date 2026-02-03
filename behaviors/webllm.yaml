@@ -6,6 +6,10 @@ bundle:
 includes:
   - bundle: git+https://github.com/microsoft/amplifier-bundle-webruntime@main#subdirectory=behaviors/webruntime.yaml
 
+agents:
+  include:
+    - webllm:webllm-expert
+
 context:
   include:
-    - webllm:context/webllm-guide.md
+    - webllm:context/webllm-awareness.md
